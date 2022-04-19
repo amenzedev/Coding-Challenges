@@ -9,7 +9,7 @@ public:
     std::vector<int> twoSum(std::vector<int>& nums, int target) {
         int s_index =-1;
         int e_index = -1;
-        for (int i=0; i < std::size(nums);i++)
+        for (int i=0; i < nums.size();i++)
         {
             if((std::count(nums.begin(),nums.end(),target-nums.at(i))==1 && nums.at(i)!=target-nums.at(i))||(std::count(nums.begin(),nums.end(),target-nums.at(i))==2))
             {
