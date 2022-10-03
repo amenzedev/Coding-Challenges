@@ -13,7 +13,7 @@ public class uniqueCharacters {
 
         System.out.println(isUniqueChars(input));
         
-        
+        in.close();
     }
 
     public static boolean isUniqueChars(String str)
